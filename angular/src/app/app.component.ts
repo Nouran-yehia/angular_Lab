@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular1';
+  name:string = '';
+  pass:string = '';
+  getUserName(user){
+    this.name =user;
+    console.log(user);
+  }
+  getPassword(pass){
+    this.pass = pass;
+    console.log(pass);
+
+  }
 }
